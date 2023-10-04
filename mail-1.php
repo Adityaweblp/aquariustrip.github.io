@@ -59,7 +59,7 @@
 
       $send = @mail($to,$subject,$message,$headers);
       if($send){
-        $success_msg = header('http://adityaweblp.github.io/aquariustrip.github.io/thankyou.html');
+        $success_msg = header('https://www.adityaweblp.github.io/aquariustrip.github.io/thankyou.html');
       }else{
         $error_msg = header('Location:');
       }
