@@ -21,7 +21,7 @@
       $error_msg = "Something went wrong, please try again.";
     }else{
       // send mail
-      $to = "aquariustrip2@gmail.comm";
+      $to = "aquariustrip2@gmail.com";
       
       $subject = "Enquiry for Aquarius Trip";
 
@@ -59,7 +59,7 @@
 
       $send = @mail($to,$subject,$message,$headers);
       if($send){
-        $success_msg = header('Location: thankyou.html');
+        $success_msg = header('https://adityaweblp.github.io/aquariustrip.github.io/thankyou.html');
       }else{
         $error_msg = header('Location:');
       }
