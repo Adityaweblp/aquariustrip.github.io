@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Rajasthan Tour - Rajasthan Journey</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+	<link href="image/fevi.png" rel="icon">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="popup">
+    <div class="delay-pop">
+        <button id="close">&times;</button>
+        <h2>SEND US AN ENQUIRY</h2>
+        <form class="main_form" method="post" action="mail-1.php">
+				<div class="row">
+					<div class="col-md-12">
+						<input placeholder="Full Name" type="text" name="name" required> 
+						<?php if($name_error){ ?><span class="text-danger"><?=$name_error?></span> <?php } ?>
+					</div>
+					<div class="col-md-12">
+						<input placeholder="Email" type="email" name="email" required>
+						<?php if($email_error){ ?><span class="text-danger"><?=$email_error?></span> <?php } ?>
+					</div>
+					<div class="col-md-12">
+						<input class="contactus" placeholder="Phone Number" type="tel" name="phone" required>
+						<?php if($phone_error){ ?><span class="text-danger"><?=$phone_error?></span> <?php } ?>
+					</div>
+
+					<div class="col-md-12">
+						<input placeholder="State" type="text" name="state" required>
+						<?php if($state_error){ ?><span class="text-danger"><?=$state_error?></span> <?php } ?>
+					</div>
+					<div class="col-md-12">
+						<input placeholder="Message" type="text" name="message" required>  
+						<?php if($message_error){ ?><span class="text-danger"><?=$message_error?></span> <?php } ?>
+					</div>
+					<div class="col-sm-12">
+						<button class="send_btn" type="submit" value="submit" name="submit">Send</button>
+					</div>
+				</div>
+			</form>
+    </div>
+    </div>
+	<div class="top">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6">
+					<div class="top-left">
+						<ul>
+
+							<li><a href="tel:918770939054"><i class="fa fa-phone" aria-hidden="true"></i> +91-8770939054</a></li>
+							<li><a href="mailto:aquariustrip2@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i> aquariustrip2@gmail.com</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="top-right">
+						<ul>
+							<li>Follow Us |</li>
+							<li><a href="" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a href="" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+							<li><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+							<li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="top-bar fixed-hedder">
+		<div class="logo-bar">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 d-flex1">
+						<div class="logo">
+							<a href="index.html"><img src="image/logo.png" /></a>
+						</div>
+						<div class="menu-main">
+							<!--toggle btn-->
+							<a href="javascript:void(0)" class="sidemenu_btn" id="sidemenu_toggle">
+								<span></span>
+								<span></span>
+								<span></span>
+							</a>
+
+							<div class="side-menu side-menu-opacity">
+								<div class="bg-overlay"></div>
+								<div class="inner-wrapper">
+									<span class="btn-close" id="btn_sideNavClose"><i></i><i></i></span>
+									<nav class="side-nav">
+										<ul class="navbar-nav">
+											<li><a class="nav-link" href="#home">Home</a></li>
+											<li><a class="nav-link" href="#aboutus">About us</a></li>
+
+											<li><a class="nav-link" href="#packages">Packages</a></li>
+											<li><a class="nav-link" href="#whychooseus">Why Choose Us</a></li>
+											<li><a class="nav-link" href="#gallery1">Gallery</a></li>
+											<li><a href="#contact">Contact</a></li>
+											<li><a class="nav-link stay" href="tel:918770939054"><i class="fa fa-phone"></i> Call Us</a></li>
+
+
+										</ul>
+									</nav>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Banner Section -->
+	<div class="banner-two" id="home">
+		<div class="banner-container">
+			<div class="banner-slider">
+				<div class="swiper-wrapper">
+					<!--Slide Item-->
+					<div class="swiper-slide slide-item">
+						<div class="image-layer" style="background-image: url(image/main-slider-3.jpg);"></div>
+						<div class="auto-container">
+							<div class="content-box">
+								<div class="content">
+									<div class="clearfix">
+										<div class="inner">
+											<h1><span>Rajasthan <i class="s-text">Rajasthan</i></span></h1>
+											<div class="travilo-text">Best Deals Rajasthan Tour Packages on Jaipur pushkar and Jodhpur Tour Package</div>
+											
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--Slide Item-->
+					<!--Slide Item-->
+					<div class="swiper-slide slide-item">
+						<div class="image-layer" style="background-image: url(image/main-slider-1.jpg);"></div>
+						<div class="auto-container">
+							<div class="content-box">
+								<div class="content">
+									<div class="clearfix">
+										<div class="inner">
+											<h1><span>Rajasthan <i class="s-text">Rajasthan</i></span></h1>
+											<div class="travilo-text">Best Deals Rajasthan Tour Packages on Jaipur pushkar and Jodhpur Tour Package</div>
+											
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--Slide Item-->
+					<div class="swiper-slide slide-item">
+						<div class="image-layer" style="background-image: url(image/main-slider-2.jpg);"></div>
+						<div class="auto-container">
+							<div class="content-box">
+								<div class="content">
+									<div class="clearfix">
+										<div class="inner">
+											<h1><span>Rajasthan<i class="s-text">Rajasthan</i></span></h1>
+											<div class="travilo-text">Best Deals Rajasthan Tour Packages on Jaipur pushkar and Jodhpur Tour Package</div>
+
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--Slide Item-->
+					<div class="swiper-slide slide-item">
+						<div class="image-layer" style="background-image: url(image/main-slider-4.jpg);"></div>
+						<div class="auto-container">
+							<div class="content-box">
+								<div class="content">
+									<div class="clearfix">
+										<div class="inner">
+											<h1><span>Rajasthan<i class="s-text">Rajasthan</i></span></h1>
+											<div class="travilo-text">Best Deals Rajasthan Tour Packages on Jaipur pushkar and Jodhpur Tour Package</div>
+
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--Slide Item-->
+
+				</div>
+				<div class="swiper-button-prev"><span class="fa fa-angle-left"></span></div>
+				<div class="swiper-button-next"><span class="fa fa-angle-right"></span></div>
+			</div>
+		</div>
+		<div class="slider-form">
+			<h2>SEND US AN ENQUIRY</h2>
+			<form class="main_form" method="post" action="mail-1.php">
+				<div class="row">
+					<div class="col-md-12">
+						<input placeholder="Full Name" type="text" name="name" required> 
+						<?php if($name_error){ ?><span class="text-danger"><?=$name_error?></span> <?php } ?>
+					</div>
+					<div class="col-md-12">
+						<input placeholder="Email" type="email" name="email" required>
+						<?php if($email_error){ ?><span class="text-danger"><?=$email_error?></span> <?php } ?>
+					</div>
+					<div class="col-md-12">
+						<input class="contactus" placeholder="Phone Number" type="tel" name="phone" required>
+						<?php if($phone_error){ ?><span class="text-danger"><?=$phone_error?></span> <?php } ?>
+					</div>
+
+					<div class="col-md-12">
+						<input placeholder="State" type="text" name="state" required>
+						<?php if($state_error){ ?><span class="text-danger"><?=$state_error?></span> <?php } ?>
+					</div>
+					<div class="col-md-12">
+						<input placeholder="Message" type="text" name="message" required>  
+						<?php if($message_error){ ?><span class="text-danger"><?=$message_error?></span> <?php } ?>
+					</div>
+					<div class="col-sm-12">
+						<button class="send_btn" type="submit" value="submit" name="submit">Send</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<!--End Banner Section -->
+
+	<!--Open About Us -->
+	<div class="about-section" id="aboutus">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="about-heading">
+						<h2>About Us</h2>
+						<hr>
+						<p>Travelling is not just moving from one destination to another, travel comprises of memories, exploration, a search of peace, strengthening bond among loved ones, a quality time and the list never ends, we at Aquarius Trip stand firm to make this a loving & remember able experience, from choosing the destination to reaching their and enjoy the same, we take care of all.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--End About Us -->
+	<!--Why Us Section-->
+	<div class="why-us-two" id="whychooseus">
+		<div class="container">
+			<div class="outer-box">
+				<div class="bg-grad-left"><img src="image/bg-gradient-19.png" alt="" title="">
+				</div>					
+				<div class="row clearfix">
+					<!--Text Col-->
+					<div class="text-col col-lg-6 col-md-12 col-sm-12">
+						<div class="inner wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="0ms">
+							<div class="title-box">
+								<h6>Why Choose Us</h6>
+								<h2>“We Organize the Ultimate Tour<span> Experience Imaginable”</span></h2>
+								<p class="travilo-text">Our specialized experts are always there in your reach and we strive to deliver best of all services</p>
+							</div>
+							<div class="features">
+								<div class="f-block-three">
+									<div class="inner-box">
+										<div class="icon"><img src="image/f-icon-7.png" alt=""></div>
+										<h4>Amazing Tour Plans</h4>
+										<p class="travilo-text">Choose the Best Suited Tour Package from wide options.</p>
+									</div>
+								</div>
+								<div class="f-block-three">
+									<div class="inner-box">
+										<div class="icon"><img src="image/f-icon-8.png" alt=""></div>
+										<h4>Experienced Tour Partner</h4>
+										<p class="travilo-text">Get Personalized Tour Expert for Your Sightseeing.</p>
+									</div>
+								</div>
+								<div class="f-block-three">
+									<div class="inner-box">
+										<div class="icon"><img src="image/f-icon-9.png" alt=""></div>
+										<h4>Pocket Friendly Plans</h4>
+										<p class="travilo-text">Explore cost-effective pricing options without sacrificing quality or enjoyment. </p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--Image Col-->
+					<div class="image-col col-lg-6 col-md-12 col-sm-12">
+						<div class="inner wow fadeInRight" data-wow-duration="1500ms" data-wow-delay="0ms" id="counter">
+							<div class="d-elem-2"><img src="image/yellow-4.png" alt=""></div>
+							<div class="image-box">
+								<img src="image/why-choose.jpg" alt="" title="">
+							</div>
+							<div class="rating"><span class="icon fa fa-star"></span><span class="count">5,0</span>
+							</div>
+							<div class="fact-block f-1">
+								<div class="inner-box clearfix">
+									<div class="fact-count">
+										<h6><span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="2" class="purecounter"><p></p></span>K</h6>
+									</div>
+									<div class="fact-title">Total <br>Travellers</div>
+								</div>
+							</div>
+							<div class="fact-block f-2">
+								<div class="inner-box clearfix">
+									<div class="fact-count">
+										<h6><span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="2" class="purecounter"><p></p></span>K</h6>
+									</div>
+									<div class="fact-title">Tour <br>Organized</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Testimonials Section-->
+	<div class="packages-section" id="packages">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="packages-heading">
+						<h6>Packages</h6>
+						<h2>Top Destinations</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="package-block alt col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box">
+						<div class="image-box">
+							<div class="image"><a><img src="image/pacakage-1.jpg" alt=""></a></div>
+						</div>
+						<div class="lower-box">
+							<div class="row">
+								<div class="col-lg-8">
+
+									<h5><a>Historical Tri-City Visit</a></h5>
+									<div class="location"><i class="fa fa-clock-o"></i> 6 Days 5 Nights</div>
+								</div>
+								<div class="col-lg-4 bottom-box rateignsssd">
+									<div class="rating"><a href="#" class="theme-btn"><i class="fa fa-star"></i>
+										<strong>4.9</strong> &ensp;
+									</a></div>
+								</div>
+							</div>
+							<!-- start itenary section -->
+							<ul class="itnry">
+								<li class="active">
+									<figure> <img src="image/one.png" alt="" class="img-fluid"> </figure>
+									<p>Hotel</p>
+								</li>
+								<li>
+									<figure> <img src="image/two.png" alt="" class="img-fluid"> </figure>
+									<p>Sightseeing</p>
+								</li>
+								<li>
+									<figure> <img src="image/three.png" alt="" class="img-fluid"> </figure>
+									<p>Meals</p>
+								</li>
+								<li>
+									<figure> <img src="image/four.png" alt="" class="img-fluid"> </figure>
+									<p>Transfers</p>
+								</li>
+								<li>
+									<figure> <img src="image/five.png" alt="" class="img-fluid"> </figure>
+									<p>T &amp; C</p>
+								</li>
+							</ul>
+							<!-- end itenary section -->
+							<div class="pckksdetails">
+								<table>
+									<tr>
+										<th>Destination</th>
+										<td>Jaipur, Jodhpur & Jaisalmer</td>
+									</tr>
+									<tr>
+										<th>Pick-up & Drop</th>
+										<td>Jaipur</td>
+									</tr>
+									<tr>
+										<th>Starts</th>
+										<td class="price"><i class="fa fa-inr"></i> 13,000/- Per Person</td>
+									</tr>
+								</table>
+								
+							</div>
+
+							<div class="bottom-box clearfix">
+								<div class="row">
+									<div class="col-lg-6 btnsss">
+										<a href="tel:918770939054">Call Now </a>
+									</div>
+									<div class="col-lg-6 btnsss text-right ">
+										<a href="" data-toggle="modal" data-target="#myModal" class="Click-here">Enquire Now </a>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="package-block alt col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box">
+						<div class="image-box">
+							<div class="image"><a><img src="image/pacakage-2.jpg" alt=""></a></div>
+						</div>
+						<div class="lower-box">
+							<div class="row">
+								<div class="col-lg-8">
+
+									<h5><a>Tri-City Travel</a></h5>
+									<div class="location"><i class="fa fa-clock-o"></i> 6 Days 5 Nights</div>
+								</div>
+								<div class="col-lg-4 bottom-box rateignsssd">
+									<div class="rating"><a href="#" class="theme-btn"><i class="fa fa-star"></i>
+										<strong>4.9</strong> &ensp;
+									</a></div>
+								</div>
+							</div>
+							<!-- start itenary section -->
+							<ul class="itnry">
+								<li class="active">
+									<figure> <img src="image/one.png" alt="" class="img-fluid"> </figure>
+									<p>Hotel</p>
+								</li>
+								<li>
+									<figure> <img src="image/two.png" alt="" class="img-fluid"> </figure>
+									<p>Sightseeing</p>
+								</li>
+								<li>
+									<figure> <img src="image/three.png" alt="" class="img-fluid"> </figure>
+									<p>Meals</p>
+								</li>
+								<li>
+									<figure> <img src="image/four.png" alt="" class="img-fluid"> </figure>
+									<p>Transfers</p>
+								</li>
+								<li>
+									<figure> <img src="image/five.png" alt="" class="img-fluid"> </figure>
+									<p>T &amp; C</p>
+								</li>
+							</ul>
+							<!-- end itenary section -->
+							<div class="pckksdetails">
+								<table>
+									<tr>
+										<th>Destination</th>
+										<td>Jaipur, Jodhpur & Udaipur</td>
+									</tr>
+									<tr>
+										<th>Pick-up & Drop</th>
+										<td>Jaipur</td>
+									</tr>
+									<tr>
+										<th>Starts</th>
+										<td class="price"><i class="fa fa-inr"></i> 12,700 /- Per Person</td>
+									</tr>
+								</table>
+								
+							</div>
+
+							<div class="bottom-box clearfix">
+								<div class="row">
+									<div class="col-lg-6 btnsss">
+										<a href="tel:918770939054">Call Now </a>
+									</div>
+									<div class="col-lg-6 btnsss text-right ">
+										<a href="" data-toggle="modal" data-target="#myModal" class="Click-here">Enquire Now </a>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="package-block alt col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box">
+						<div class="image-box">
+							<div class="image"><a><img src="image/pacakage-3.jpg" alt=""></a></div>
+						</div>
+						<div class="lower-box">
+							<div class="row">
+								<div class="col-lg-8">
+
+									<h5><a>Golden City Tour</a></h5>
+									<div class="location"><i class="fa fa-clock-o"></i> 3 Days 2 Nights</div>
+								</div>
+								<div class="col-lg-4 bottom-box rateignsssd">
+									<div class="rating"><a href="#" class="theme-btn"><i class="fa fa-star"></i>
+										<strong>4.8</strong> &ensp;
+									</a></div>
+								</div>
+							</div>
+							<!-- start itenary section -->
+							<ul class="itnry">
+								<li class="active">
+									<figure> <img src="image/one.png" alt="" class="img-fluid"> </figure>
+									<p>Hotel</p>
+								</li>
+								<li>
+									<figure> <img src="image/two.png" alt="" class="img-fluid"> </figure>
+									<p>Sightseeing</p>
+								</li>
+								<li>
+									<figure> <img src="image/three.png" alt="" class="img-fluid"> </figure>
+									<p>Meals</p>
+								</li>
+								<li>
+									<figure> <img src="image/four.png" alt="" class="img-fluid"> </figure>
+									<p>Transfers</p>
+								</li>
+								<li>
+									<figure> <img src="image/five.png" alt="" class="img-fluid"> </figure>
+									<p>T &amp; C</p>
+								</li>
+							</ul>
+							<!-- end itenary section -->
+							<div class="pckksdetails">
+								<table>
+									<tr>
+										<th>Destination</th>
+										<td>Jaisalmer</td>
+									</tr>
+									<tr>
+										<th>Pick-up & Drop</th>
+										<td>Jaisalmer</td>
+									</tr>
+									<tr>
+										<th>Starts</th>
+										<td class="price"><i class="fa fa-inr"></i> 5,600/- Per Person</td>
+									</tr>
+								</table>
+								
+							</div>
+
+							<div class="bottom-box clearfix">
+								<div class="row">
+									<div class="col-lg-6 btnsss">
+										<a href="tel:918770939054">Call Now </a>
+									</div>
+									<div class="col-lg-6 btnsss text-right ">
+										<a href="" data-toggle="modal" data-target="#myModal" class="Click-here">Enquire Now </a>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="package-block alt col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box">
+						<div class="image-box">
+							<div class="image"><a><img src="image/pacakage-4.jpg" alt=""></a></div>
+						</div>
+						<div class="lower-box">
+							<div class="row">
+								<div class="col-lg-8">
+
+									<h5><a>Out of Golden Triangle </a></h5>
+									<div class="location"><i class="fa fa-clock-o"></i> 6 Days 5 Nights</div>
+								</div>
+								<div class="col-lg-4 bottom-box rateignsssd">
+									<div class="rating"><a href="#" class="theme-btn"><i class="fa fa-star"></i>
+										<strong>4.9</strong> &ensp;
+									</a></div>
+								</div>
+							</div>
+							<!-- start itenary section -->
+							<ul class="itnry">
+								<li class="active">
+									<figure> <img src="image/one.png" alt="" class="img-fluid"> </figure>
+									<p>Hotel</p>
+								</li>
+								<li>
+									<figure> <img src="image/two.png" alt="" class="img-fluid"> </figure>
+									<p>Sightseeing</p>
+								</li>
+								<li>
+									<figure> <img src="image/three.png" alt="" class="img-fluid"> </figure>
+									<p>Meals</p>
+								</li>
+								<li>
+									<figure> <img src="image/four.png" alt="" class="img-fluid"> </figure>
+									<p>Transfers</p>
+								</li>
+								<li>
+									<figure> <img src="image/five.png" alt="" class="img-fluid"> </figure>
+									<p>T &amp; C</p>
+								</li>
+							</ul>
+							<!-- end itenary section -->
+							<div class="pckksdetails">
+								<table>
+									<tr>
+										<th>Destination</th>
+										<td>Delhi, Agra & Jaipur</td>
+									</tr>
+									<tr>
+										<th>Pick-up & Drop</th>
+										<td>Delhi</td>
+									</tr>
+									<tr>
+										<th>Starts</th>
+										<td class="price"><i class="fa fa-inr"></i> 12,200 /-Per Person</td>
+									</tr>
+								</table>
+								
+							</div>
+
+							<div class="bottom-box clearfix">
+								<div class="row">
+									<div class="col-lg-6 btnsss">
+										<a href="tel:918770939054">Call Now </a>
+									</div>
+									<div class="col-lg-6 btnsss text-right ">
+										<a href="" data-toggle="modal" data-target="#myModal" class="Click-here">Enquire Now </a>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="package-block alt col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box">
+						<div class="image-box">
+							<div class="image"><a><img src="image/pacakage-5.jpg" alt=""></a></div>
+						</div>
+						<div class="lower-box">
+							<div class="row">
+								<div class="col-lg-8">
+
+									<h5><a>Special Tri-city Tour </a></h5>
+									<div class="location"><i class="fa fa-clock-o"></i> 6 Days 5 Nights</div>
+								</div>
+								<div class="col-lg-4 bottom-box rateignsssd">
+									<div class="rating"><a href="#" class="theme-btn"><i class="fa fa-star"></i>
+										<strong>4.8</strong> &ensp;
+									</a></div>
+								</div>
+							</div>
+							<!-- start itenary section -->
+							<ul class="itnry">
+								<li class="active">
+									<figure> <img src="image/one.png" alt="" class="img-fluid"> </figure>
+									<p>Hotel</p>
+								</li>
+								<li>
+									<figure> <img src="image/two.png" alt="" class="img-fluid"> </figure>
+									<p>Sightseeing</p>
+								</li>
+								<li>
+									<figure> <img src="image/three.png" alt="" class="img-fluid"> </figure>
+									<p>Meals</p>
+								</li>
+								<li>
+									<figure> <img src="image/four.png" alt="" class="img-fluid"> </figure>
+									<p>Transfers</p>
+								</li>
+								<li>
+									<figure> <img src="image/five.png" alt="" class="img-fluid"> </figure>
+									<p>T &amp; C</p>
+								</li>
+							</ul>
+							<!-- end itenary section -->
+							<div class="pckksdetails">
+								<table>
+									<tr>
+										<th>Destination</th>
+										<td>Jaipur, Udaipur & Mount Abu</td>
+									</tr>
+									<tr>
+										<th>Pick-up & Drop</th>
+										<td>Jaipur</td>
+									</tr>
+									<tr>
+										<th>Starts</th>
+										<td class="price"><i class="fa fa-inr"></i> 12,200 /-Per Person</td>
+									</tr>
+								</table>
+								
+							</div>
+
+							<div class="bottom-box clearfix">
+								<div class="row">
+									<div class="col-lg-6 btnsss">
+										<a href="tel:918770939054">Call Now </a>
+									</div>
+									<div class="col-lg-6 btnsss text-right ">
+										<a href="" data-toggle="modal" data-target="#myModal" class="Click-here">Enquire Now </a>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="package-block alt col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box">
+						<div class="image-box">
+							<div class="image"><a><img src="image/pacakage-6.jpg" alt=""></a></div>
+						</div>
+						<div class="lower-box">
+							<div class="row">
+								<div class="col-lg-8">
+
+									<h5><a>Weekend Celebration Tour </a></h5>
+									<div class="location"><i class="fa fa-clock-o"></i> 3 Days 2 Nights</div>
+								</div>
+								<div class="col-lg-4 bottom-box rateignsssd">
+									<div class="rating"><a href="#" class="theme-btn"><i class="fa fa-star"></i>
+										<strong>4.8</strong> &ensp;
+									</a></div>
+								</div>
+							</div>
+							<!-- start itenary section -->
+							<ul class="itnry">
+								<li class="active">
+									<figure> <img src="image/one.png" alt="" class="img-fluid"> </figure>
+									<p>Hotel</p>
+								</li>
+								<li>
+									<figure> <img src="image/two.png" alt="" class="img-fluid"> </figure>
+									<p>Sightseeing</p>
+								</li>
+								<li>
+									<figure> <img src="image/three.png" alt="" class="img-fluid"> </figure>
+									<p>Meals</p>
+								</li>
+								<li>
+									<figure> <img src="image/four.png" alt="" class="img-fluid"> </figure>
+									<p>Transfers</p>
+								</li>
+								<li>
+									<figure> <img src="image/five.png" alt="" class="img-fluid"> </figure>
+									<p>T &amp; C</p>
+								</li>
+							</ul>
+							<!-- end itenary section -->
+							<div class="pckksdetails">
+								<table>
+									<tr>
+										<th>Destination</th>
+										<td>Jaipur</td>
+									</tr>
+									<tr>
+										<th>Pick-up & Drop</th>
+										<td>Jaipur</td>
+									</tr>
+									<tr>
+										<th>Starts</th>
+										<td class="price"><i class="fa fa-inr"></i> 7700/-Per Person</td>
+									</tr>
+								</table>
+								
+							</div>
+
+							<div class="bottom-box clearfix">
+								<div class="row">
+									<div class="col-lg-6 btnsss">
+										<a href="tel:918770939054">Call Now </a>
+									</div>
+									<div class="col-lg-6 btnsss text-right ">
+										<a href="" data-toggle="modal" data-target="#myModal" class="Click-here">Enquire Now </a>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12">
+					<div class="btnsss text-center">
+						<a href="" data-toggle="modal" data-target="#myModal" class="Click-here">VIEW ALL RAJASTHAN PACKAGES</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- Gallery Section -->
+<div class="gallery-section" id="gallery1">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="about-heading">
+					<h2>Gallery</h2>
+					<hr>
+				</div>
+			</div>
+		</div>
+		<div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide">
+                <a href="image/gallery-1.png" data-fancybox="gallery" data-caption=" ">
+                    <img src="image/gallery-1.png" alt="">
+                </a>     
+            </div>
+            <div class="swiper-slide">
+                <a href="image/gallery-2.png" data-fancybox="gallery" data-caption=" ">
+                    <img src="image/gallery-2.png" alt="Best Kitchen Sink Essentials">
+                </a>
+            </div>
+            <div class="swiper-slide">
+               <a href="image/gallery-3.png" data-fancybox="gallery" data-caption=" ">
+                    <img src="image/gallery-3.png" alt="Best Kitchen Sink Essentials">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="image/gallery-4.png" data-fancybox="gallery" data-caption=" ">
+                    <img src="image/gallery-4.png" alt="Best Kitchen Sink Essentials">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="image/gallery-5.png" data-fancybox="gallery" data-caption=" ">
+                    <img src="image/gallery-5.png" alt="Best Kitchen Sink Essentials">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="image/gallery-6.png" data-fancybox="gallery" data-caption=" ">
+                    <img src="image/gallery-6.png" alt="Best Kitchen Sink Essentials">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="image/gallery-7.png" data-fancybox="gallery" data-caption=" ">
+                    <img src="image/gallery-7.png" alt="Best Kitchen Sink Essentials">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="image/gallery-8.png" data-fancybox="gallery" data-caption=" ">
+                    <img src="image/gallery-8.png" alt="Best Kitchen Sink Essentials">
+                </a>
+            </div>
+           <div class="swiper-slide">
+                <a href="image/gallery-9.png" data-fancybox="gallery" data-caption=" ">
+                    <img src="image/gallery-9.png" alt="Best Kitchen Sink Essentials">
+                </a>
+            </div>
+           <div class="swiper-slide">
+                <a href="image/gallery-10.png" data-fancybox="gallery" data-caption=" ">
+                    <img src="image/gallery-10.png" alt="Best Kitchen Sink Essentials">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="image/gallery-11.png" data-fancybox="gallery" data-caption=" ">
+                    <img src="image/gallery-11.png" alt="Best Kitchen Sink Essentials">
+                </a>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+	</div>
+</div>
+<!-- Gallery Section -->
+<div class="testimonial-section">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="about-heading">
+					<h2>TESTIMONIAL</h2>
+					<hr>
+				</div>
+			</div>
+		</div>
+		<div class="testimonial-slider1 swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide testimonial-article">
+            	<img src="image/icon-1.png">
+            	<h2>Rahul Kanchan</h2>
+            	<ul>
+            		<li><i class="fa fa-star"></i></li>
+            		<li><i class="fa fa-star"></i></li>
+            		<li><i class="fa fa-star"></i></li>
+            		<li><i class="fa fa-star"></i></li>
+            		<li><i class="fa fa-star"></i></li>
+            	</ul>
+                <p>I was worried before going for this trip, but Aquarius had managed this trip very well. Kanika was point of contact and she ensured that this trip was comfortable for everyone, as people of all age groups were onboard in this trip. Beautiful experience, from professional driver to prompt action on call in case there was any query. Will recommend everyone to try at least once with them.</p>   
+            </div>
+            <div class="swiper-slide testimonial-article">
+            	<img src="image/icon-2.png">
+            	<h2>Yogesh karkera</h2>
+            	<ul>
+            		<li><i class="fa fa-star"></i></li>
+            		<li><i class="fa fa-star"></i></li>
+            		<li><i class="fa fa-star"></i></li>
+            		<li><i class="fa fa-star"></i></li>
+            		<li><i class="fa fa-star"></i></li>
+            	</ul>
+            	
+                <p>Great trip organised by Aquarius well planned and organised.They were helpful 24*7f for any of our needs .Would highly recommend to anyone traveling.</p>   
+            </div>
+            <div class="swiper-slide testimonial-article">
+            	<img src="image/icon-3.png">
+            	<h2>karishma bangera</h2>
+            	<ul>
+            		<li><i class="fa fa-star"></i></li>
+            		<li><i class="fa fa-star"></i></li>
+            		<li><i class="fa fa-star"></i></li>
+            		<li><i class="fa fa-star"></i></li>
+            		<li><i class="fa fa-star"></i></li>
+            	</ul>
+                <p>I recently had the privilege of embarking on a journey to Kedarnath and Badrinath, and I owe a significant part of the remarkable experience From start to finish, their exceptional services ensured that every moment of the trip was smooth, memorable, and truly enjoyable.</p>   
+            </div>
+            <div class="swiper-slide testimonial-article">
+            	<img src="image/icon-4.png">
+
+            	<h2>ROHIT VYAS</h2>
+            	<ul>
+            		<li><i class="fa fa-star"></i></li>
+            		<li><i class="fa fa-star"></i></li>
+            		<li><i class="fa fa-star"></i></li>
+            		<li><i class="fa fa-star"></i></li>
+            		<li><i class="fa fa-star"></i></li>
+            	</ul>
+                <p>That was an awesome experience with Aquarius Trip. the whole tour was managed by Ms. Mansi mam was so perfect. and 24*7 support by Mansi Mam was appriciable. also a warm thanks to Mr. Tenendra Sir for arranging Helipad in short notice period. felt very relaxed during complete tour.Hotels properties were also satisfactory</p>   
+            </div>
+            <div class="swiper-slide testimonial-article">
+            	<img src="image/icon-5.png">
+            	<h2>shreya bangera</h2>
+            	<ul>
+            		<li><i class="fa fa-star"></i></li>
+            		<li><i class="fa fa-star"></i></li>
+            		<li><i class="fa fa-star"></i></li>
+            		<li><i class="fa fa-star"></i></li>
+            		<li><i class="fa fa-star"></i></li>
+            	</ul>
+                <p>Perfectly planed and good hotels to stay….tempo traveller and driver was also good. Our journey was very smooth and the team was always reachable whenever required.</p>   
+            </div>
+           
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+	</div>
+</div>
+<div class="footer" id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="footer-form">
+					<form class="main_form" method="post" action="mail-1.php">
+				<div class="row">
+					<div class="col-md-2">
+						<input placeholder="Full Name" type="text" name="name" required> 
+						<?php if($name_error){ ?><span class="text-danger"><?=$name_error?></span> <?php } ?>
+					</div>
+					<div class="col-md-2">
+						<input placeholder="Email" type="email" name="email" required>
+						<?php if($email_error){ ?><span class="text-danger"><?=$email_error?></span> <?php } ?>
+					</div>
+					<div class="col-md-2">
+						<input class="contactus" placeholder="Phone Number" type="tel" name="phone" required>
+						<?php if($phone_error){ ?><span class="text-danger"><?=$phone_error?></span> <?php } ?>
+					</div>
+
+					<div class="col-md-2">
+						<input placeholder="State" type="text" name="state" required>
+						<?php if($state_error){ ?><span class="text-danger"><?=$state_error?></span> <?php } ?>
+					</div>
+					<div class="col-md-2">
+						<input placeholder="Message" type="text" name="message" required>  
+						<?php if($message_error){ ?><span class="text-danger"><?=$message_error?></span> <?php } ?>
+					</div>
+					<div class="col-sm-2">
+						<button class="send_btn" type="submit" value="submit" name="submit">Send</button>
+					</div>
+				</div>
+			</form>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-6">
+				<div class="contact-details">
+					<!-- <img src="image/footer-logo.png"> -->
+					<h4>Contact Us</h4>
+					<p><i class="fa fa-map-marker"></i> <strong>Address</strong><br>Block 1, West Patel Nagar, Patel Nagar, New Delhi, Delhi, 110008</p>
+					<p><i class="fa fa-phone"></i> <strong>Call us</strong><br><a href="tel:918770939054">+91 8770939054</a></p>
+					 <p><i class="fa fa-envelope"></i> <strong>Email</strong><br> <a href="mailto:aquariustrip2@gmail.com">aquariustrip2@gmail.com</a></p>
+				</div>
+			</div>
+			<div class="col-lg-8 col-md-8 col-sm-6">
+				<div class="contact-details">
+					<h4>Our Destination Package</h4>
+					<ul>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Jaipur tour Package</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Udaipur Tour Package</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Jaisalmer Tour Package</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Desert Safari</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Desert Camping package</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Mount Abu Tour Package</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Jodhpur Tour Package</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Kumbhalgarh Tour Package</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Sariska Jungle Safari</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Bahratpur Bird Century</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Bharatpur Tour Package</a></li>
+						
+						<li><i class="fa fa-angle-double-right"></i><a href="">Holidays In Rajasthan</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Holiday Trip To Rajasthan</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Rajasthan Packages For Couple</a></li>
+						
+						<li><i class="fa fa-angle-double-right"></i><a href="">Rajasthan Trip Planner</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Travel In Rajasthan</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Trips To Rajasthan</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Rajasthan Holiday Travels</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Packages Of Rajasthan Tour</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Package Tours To Rajasthan</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Tour Packages To Rajasthan</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Best Rajasthan Holiday Packages</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Rajasthan Tourism Honeymoon Packages</a></li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+            <div class="col-lg-12">
+                <div class="footer-social-link">
+                    <ul>
+                        <li><a href="" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="" target="_blank" class="youtube"><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+	</div>
+</div>
+	<div class="modal home-popup fade" id="myModal" role="dialog">
+		<div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+
+				<button type="button" class="close" data-dismiss="modal">×</button>
+				<h2 class="luxurious_title model-get">GET IN TOUCH</h2>
+				<div class="modal-header">
+					<form class="main_form" method="post" action="mail-1.php">
+				<div class="row">
+					<div class="col-md-12">
+						<input placeholder="Full Name" type="text" name="name" required> 
+						<?php if($name_error){ ?><span class="text-danger"><?=$name_error?></span> <?php } ?>
+					</div>
+					<div class="col-md-12">
+						<input placeholder="Email" type="email" name="email" required>
+						<?php if($email_error){ ?><span class="text-danger"><?=$email_error?></span> <?php } ?>
+					</div>
+					<div class="col-md-12">
+						<input class="contactus" placeholder="Phone Number" type="tel" name="phone" required>
+						<?php if($phone_error){ ?><span class="text-danger"><?=$phone_error?></span> <?php } ?>
+					</div>
+
+					<div class="col-md-12">
+						<input placeholder="State" type="text" name="state" required>
+						<?php if($state_error){ ?><span class="text-danger"><?=$state_error?></span> <?php } ?>
+					</div>
+					<div class="col-md-12">
+						<input placeholder="Message" type="text" name="message" required>  
+						<?php if($message_error){ ?><span class="text-danger"><?=$message_error?></span> <?php } ?>
+					</div>
+					<div class="col-sm-12">
+						<button class="send_btn" type="submit" value="submit" name="submit">Send</button>
+					</div>
+				</div>
+			</form>
+        </div>
+        
+
+    </div>
+</div>
+</div>
+<div class="fixd-btn">
+  <a href="https://api.whatsapp.com/send?phone=918770939054&amp;text=Hi" target="_blank"><img src="image/whatsapp_icon.png"></a>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://www.dayasons.in/js/purecounter_vanilla.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/custom.js"></script>
+<link href="css/jquery.fancybox.min.css" rel="stylesheet" type="text/css">
+<script src="js/jquery.fancybox.js"></script>
+ <script type="text/javascript">
+        window.addEventListener("load", function(){
+    setTimeout(
+        function open(event){
+            document.querySelector(".popup").style.display = "block";
+        },
+        3000
+    )
+});
+
+
+document.querySelector("#close").addEventListener("click", function(){
+    document.querySelector(".popup").style.display = "none";
+});
+    </script>
+<script>
+	//Banner Carousel
+	if ($('.banner-slider').length) {
+		var swiper = new Swiper('.banner-slider', {
+			autoplay: true,
+			autoplaySpeed: 7000,
+			effect: 'fade',
+			speed: 1000,
+			margin: 0,
+			slidesPerView: 1,
+			spaceBetween: 0,
+			loop: true,
+			autoplay: {
+				delay: 7000
+			},
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			}
+		});
+	}
+</script>
+</body>
+</html>

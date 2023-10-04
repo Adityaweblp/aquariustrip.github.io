@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Rajasthan Tour - Rajasthan Journey</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+	<link href="image/fevi.png" rel="icon">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="popup">
+    <div class="delay-pop">
+        <button id="close">&times;</button>
+        <h2>SEND US AN ENQUIRY</h2>
+        <form class="main_form" method="post" action="mail-1.php">
+				<div class="row">
+					<div class="col-md-12">
+						<input placeholder="Full Name" type="text" name="name" required> 
+						<?php if($name_error){ ?><span class="text-danger"><?=$name_error?></span> <?php } ?>
+					</div>
+					<div class="col-md-12">
+						<input placeholder="Email" type="email" name="email" required>
+						<?php if($email_error){ ?><span class="text-danger"><?=$email_error?></span> <?php } ?>
+					</div>
+					<div class="col-md-12">
+						<input class="contactus" placeholder="Phone Number" type="tel" name="phone" required>
+						<?php if($phone_error){ ?><span class="text-danger"><?=$phone_error?></span> <?php } ?>
+					</div>
+
+					<div class="col-md-12">
+						<input placeholder="State" type="text" name="state" required>
+						<?php if($state_error){ ?><span class="text-danger"><?=$state_error?></span> <?php } ?>
+					</div>
+					<div class="col-md-12">
+						<input placeholder="Message" type="text" name="message" required>  
+						<?php if($message_error){ ?><span class="text-danger"><?=$message_error?></span> <?php } ?>
+					</div>
+					<div class="col-sm-12">
+						<button class="send_btn" type="submit" value="submit" name="submit">Send</button>
+					</div>
+				</div>
+			</form>
+    </div>
+    </div>
+	<div class="top">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6">
+					<div class="top-left">
+						<ul>
+
+							<li><a href="tel:918770939054"><i class="fa fa-phone" aria-hidden="true"></i> +91-8770939054</a></li>
+							<li><a href="mailto:aquariustrip2@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i> aquariustrip2@gmail.com</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="top-right">
+						<ul>
+							<li>Follow Us |</li>
+							<li><a href="" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a href="" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+							<li><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+							<li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="top-bar fixed-hedder">
+		<div class="logo-bar">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 d-flex1">
+						<div class="logo">
+							<a href="index.html"><img src="image/logo.png" /></a>
+						</div>
+						<div class="menu-main">
+							<!--toggle btn-->
+							<a href="javascript:void(0)" class="sidemenu_btn" id="sidemenu_toggle">
+								<span></span>
+								<span></span>
+								<span></span>
+							</a>
+
+							<div class="side-menu side-menu-opacity">
+								<div class="bg-overlay"></div>
+								<div class="inner-wrapper">
+									<span class="btn-close" id="btn_sideNavClose"><i></i><i></i></span>
+									<nav class="side-nav">
+										<ul class="navbar-nav">
+											<li><a class="nav-link" href="#home">Home</a></li>
+											<li><a class="nav-link" href="#aboutus">About us</a></li>
+
+											<li><a class="nav-link" href="#packages">Packages</a></li>
+											<li><a class="nav-link" href="#whychooseus">Why Choose Us</a></li>
+											<li><a class="nav-link" href="#gallery1">Gallery</a></li>
+											<li><a href="#contact">Contact</a></li>
+											<li><a class="nav-link stay" href="tel:918770939054"><i class="fa fa-phone"></i> Call Us</a></li>
+
+
+										</ul>
+									</nav>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="breadcrumb1">
+		<img src="image/main-slider-3.jpg">
+	</div>
+<div class="thankyou">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="thankyou-text-wrap text-center">
+                    <h2><span> Thank </span> You </h2>
+                    <h1>Thank You ! We will call back soon!</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer" id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="footer-form">
+					<form class="main_form" method="post" action="mail-1.php">
+				<div class="row">
+					<div class="col-md-2">
+						<input placeholder="Full Name" type="text" name="name" required> 
+						<?php if($name_error){ ?><span class="text-danger"><?=$name_error?></span> <?php } ?>
+					</div>
+					<div class="col-md-2">
+						<input placeholder="Email" type="email" name="email" required>
+						<?php if($email_error){ ?><span class="text-danger"><?=$email_error?></span> <?php } ?>
+					</div>
+					<div class="col-md-2">
+						<input class="contactus" placeholder="Phone Number" type="tel" name="phone" required>
+						<?php if($phone_error){ ?><span class="text-danger"><?=$phone_error?></span> <?php } ?>
+					</div>
+
+					<div class="col-md-2">
+						<input placeholder="State" type="text" name="state" required>
+						<?php if($state_error){ ?><span class="text-danger"><?=$state_error?></span> <?php } ?>
+					</div>
+					<div class="col-md-2">
+						<input placeholder="Message" type="text" name="message" required>  
+						<?php if($message_error){ ?><span class="text-danger"><?=$message_error?></span> <?php } ?>
+					</div>
+					<div class="col-sm-2">
+						<button class="send_btn" type="submit" value="submit" name="submit">Send</button>
+					</div>
+				</div>
+			</form>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-6">
+				<div class="contact-details">
+					<!-- <img src="image/footer-logo.png"> -->
+					<h4>Contact Us</h4>
+					<p><i class="fa fa-map-marker"></i> <strong>Address</strong><br>Block 1, West Patel Nagar, Patel Nagar, New Delhi, Delhi, 110008</p>
+					<p><i class="fa fa-phone"></i> <strong>Call us</strong><br><a href="tel:918770939054">+91 8770939054</a></p>
+					 <p><i class="fa fa-envelope"></i> <strong>Email</strong><br> <a href="mailto:aquariustrip2@gmail.com">aquariustrip2@gmail.com</a></p>
+				</div>
+			</div>
+			<div class="col-lg-8 col-md-8 col-sm-6">
+				<div class="contact-details">
+					<h4>Our Destination Package</h4>
+					<ul>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Jaipur tour Package</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Udaipur Tour Package</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Jaisalmer Tour Package</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Desert Safari</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Desert Camping package</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Mount Abu Tour Package</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Jodhpur Tour Package</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Kumbhalgarh Tour Package</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Sariska Jungle Safari</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Bahratpur Bird Century</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Bharatpur Tour Package</a></li>
+						
+						<li><i class="fa fa-angle-double-right"></i><a href="">Holidays In Rajasthan</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Holiday Trip To Rajasthan</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Rajasthan Packages For Couple</a></li>
+						
+						<li><i class="fa fa-angle-double-right"></i><a href="">Rajasthan Trip Planner</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Travel In Rajasthan</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Trips To Rajasthan</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Rajasthan Holiday Travels</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Packages Of Rajasthan Tour</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Package Tours To Rajasthan</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Tour Packages To Rajasthan</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Best Rajasthan Holiday Packages</a></li>
+						<li><i class="fa fa-angle-double-right"></i><a href="">Rajasthan Tourism Honeymoon Packages</a></li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+            <div class="col-lg-12">
+                <div class="footer-social-link">
+                    <ul>
+                        <li><a href="" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="" target="_blank" class="youtube"><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+	</div>
+</div>
+	<div class="modal home-popup fade" id="myModal" role="dialog">
+		<div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+
+				<button type="button" class="close" data-dismiss="modal">×</button>
+				<h2 class="luxurious_title model-get">GET IN TOUCH</h2>
+				<div class="modal-header">
+					<form class="main_form" method="post" action="mail-1.php">
+				<div class="row">
+					<div class="col-md-12">
+						<input placeholder="Full Name" type="text" name="name" required> 
+						<?php if($name_error){ ?><span class="text-danger"><?=$name_error?></span> <?php } ?>
+					</div>
+					<div class="col-md-12">
+						<input placeholder="Email" type="email" name="email" required>
+						<?php if($email_error){ ?><span class="text-danger"><?=$email_error?></span> <?php } ?>
+					</div>
+					<div class="col-md-12">
+						<input class="contactus" placeholder="Phone Number" type="tel" name="phone" required>
+						<?php if($phone_error){ ?><span class="text-danger"><?=$phone_error?></span> <?php } ?>
+					</div>
+
+					<div class="col-md-12">
+						<input placeholder="State" type="text" name="state" required>
+						<?php if($state_error){ ?><span class="text-danger"><?=$state_error?></span> <?php } ?>
+					</div>
+					<div class="col-md-12">
+						<input placeholder="Message" type="text" name="message" required>  
+						<?php if($message_error){ ?><span class="text-danger"><?=$message_error?></span> <?php } ?>
+					</div>
+					<div class="col-sm-12">
+						<button class="send_btn" type="submit" value="submit" name="submit">Send</button>
+					</div>
+				</div>
+			</form>
+        </div>
+        
+
+    </div>
+</div>
+</div>
+<div class="fixd-btn">
+  <a href="https://api.whatsapp.com/send?phone=918770939054&amp;text=Hi" target="_blank"><img src="image/whatsapp_icon.png"></a>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://www.dayasons.in/js/purecounter_vanilla.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/custom.js"></script>
+<link href="css/jquery.fancybox.min.css" rel="stylesheet" type="text/css">
+<script src="js/jquery.fancybox.js"></script>
+ <script type="text/javascript">
+        window.addEventListener("load", function(){
+    setTimeout(
+        function open(event){
+            document.querySelector(".popup").style.display = "block";
+        },
+        3000
+    )
+});
+
+
+document.querySelector("#close").addEventListener("click", function(){
+    document.querySelector(".popup").style.display = "none";
+});
+    </script>
+<script>
+	//Banner Carousel
+	if ($('.banner-slider').length) {
+		var swiper = new Swiper('.banner-slider', {
+			autoplay: true,
+			autoplaySpeed: 7000,
+			effect: 'fade',
+			speed: 1000,
+			margin: 0,
+			slidesPerView: 1,
+			spaceBetween: 0,
+			loop: true,
+			autoplay: {
+				delay: 7000
+			},
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			}
+		});
+	}
+</script>
+</body>
+</html>
